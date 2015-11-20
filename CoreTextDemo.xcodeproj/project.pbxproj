@@ -30,7 +30,6 @@
 		CE84AD5D1B9D63B1009F742E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE84AD5C1B9D63B1009F742E /* Images.xcassets */; };
 		CE84AD601B9D63B1009F742E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE84AD5E1B9D63B1009F742E /* LaunchScreen.xib */; };
 		CE84AD6C1B9D63B1009F742E /* CoreTextDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE84AD6B1B9D63B1009F742E /* CoreTextDemoTests.m */; };
-		CE9F221F1BFEF81400D384D9 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9F221E1BFEF81400D384D9 /* TestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,8 +85,6 @@
 		CE84AD651B9D63B1009F742E /* CoreTextDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreTextDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE84AD6A1B9D63B1009F742E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE84AD6B1B9D63B1009F742E /* CoreTextDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreTextDemoTests.m; sourceTree = "<group>"; };
-		CE9F221D1BFEF81400D384D9 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
-		CE9F221E1BFEF81400D384D9 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,8 +175,6 @@
 				CE84AD591B9D63B1009F742E /* Main.storyboard */,
 				CE84AD5C1B9D63B1009F742E /* Images.xcassets */,
 				CE84AD5E1B9D63B1009F742E /* LaunchScreen.xib */,
-				CE9F221D1BFEF81400D384D9 /* TestViewController.h */,
-				CE9F221E1BFEF81400D384D9 /* TestViewController.m */,
 				CE84AD4F1B9D63B1009F742E /* Supporting Files */,
 			);
 			path = CoreTextDemo;
@@ -329,7 +324,6 @@
 				01B6542F1BA4186500B99860 /* ImageViewController.m in Sources */,
 				CE8033031BA172A600779BCA /* CTFrameParser.m in Sources */,
 				CE8033001BA172A600779BCA /* CoreTextLinkData.m in Sources */,
-				CE9F221F1BFEF81400D384D9 /* TestViewController.m in Sources */,
 				CE80330A1BA1730400779BCA /* CTDisplayView.m in Sources */,
 				CE8033041BA172A600779BCA /* CTFrameParserConfig.m in Sources */,
 				CE80330B1BA1730400779BCA /* UIView+FrameAdjust.m in Sources */,
